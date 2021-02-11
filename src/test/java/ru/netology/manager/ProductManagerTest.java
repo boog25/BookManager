@@ -43,8 +43,8 @@ public class ProductManagerTest {
 
     @Test
     void shouldSearchBy() {
-        Product[] expected = new Product[]{item6};
-        Product[] actual = manager.searchBy("Apple");
+        Product[] expected = new Product[]{item4};
+        Product[] actual = manager.searchBy("Samsung");
         assertArrayEquals(expected, actual);
     }
 
